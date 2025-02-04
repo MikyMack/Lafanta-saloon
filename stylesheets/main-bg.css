@@ -1,0 +1,235 @@
+/* MAIN-BG.CSS contains Background Image paths & definition rules powered by CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to replace any BG image is to add image URL in url('....') area of related classname.
+If you need assistance, please go to http://www.designova.net/downloads.html and request a downloadable 
+ZIP pack contains original live preview version with all preview images linked properly, so you can easily 
+replace preview images directly;
+*/
+
+/*SLANT BG IMAGES*/
+.slant-layer.studio-bg:first-child:before {
+    background-image: url('../images/tiara-salon-lake-forest.jpg');
+}
+.slant-layer.personal-bg:first-child:before {
+    background-image: url('../images/tiara-salon-lake-forest-82.jpg');
+}
+.slant-layer.team-bg:first-child:before {
+    background-image: url('../images/tiara-salon-lake-forest-22.jpg');
+}
+.slant-layer.post-bg:first-child:before {
+    background-image: url('../images/tiara-salon-lake-forest-84.jpg');
+}
+.slant-layer.wall-bg:first-child:before {
+    background-image: url('../images/tiara-salon-lake-forest-85.jpg');
+}
+.slant-layer.pricing-bg:first-child:before {
+    background-image: url('../images/tiara-salon-lake-forest-92.jpg');
+}
+.slant-layer.contact-bg:first-child:before {
+    background-image: url('../images/slants/07.jpg');
+}
+.slant-layer.contactless-bg:first-child:before {
+    background-image: url('../images/tiara-salon-lake-forest-100.jpg');
+}
+
+
+
+/*SECTION BG IMAGES*/
+footer.mastfoot{
+    background-color: black;
+}
+.services-bg {
+    background-image: url('../images/tiara-salon-lake-forest-20.jpg');
+}
+
+
+/*NEWS POSTS BG*/
+.journal-item-01-bg{
+    background-image: url('../images/tiara-salon-lake-forest-89.jpg');
+}
+.journal-item-02-bg{
+    background-image: url('../images/tiara-salon-lake-forest-90.jpg');
+}
+.journal-item-03-bg{
+    background-image: url('../images/tiara-salon-lake-forest-91.jpg');
+}
+.journal-item-04-bg{
+    background-image: url('../images/journals/04.html');
+}
+.journal-item-05-bg{
+    background-image: url('../images/journals/05.html');
+}
+.journal-item-06-bg{
+    background-image: url('../images/journals/06.html');
+}
+
+
+/*FULLSCREEN LANDING*/
+.fullscreen-portfolio-01{
+    background-image: url('../images/5L.png');
+}
+.fullscreen-portfolio-02{
+    background-image: url('../images/5R.png');
+}
+.fullscreen-portfolio-03{
+    background-image: url('../images/1L.png');
+}
+.fullscreen-portfolio-04{
+    background-image: url('../images/1R.png');
+}
+.fullscreen-portfolio-05{
+    background-image: url('../images/1L.png');
+}
+.fullscreen-portfolio-06{
+    background-image: url('../images/1R.png');
+}
+.fullscreen-portfolio-07{
+    background-image: url('../images/4L.png');
+}
+.fullscreen-portfolio-08{
+    background-image: url('../images/4R.png');
+}
+.fullscreen-portfolio-09{
+    background-image: url('../images/2L.png');
+}
+.fullscreen-portfolio-10{
+    background-image: url('../images/2R.png');
+}
+.fullscreen-portfolio-11{
+    background-image: url('../images/3L.png');
+}
+.fullscreen-portfolio-12{
+    background-image: url('../images/3R.png');
+}
+
+/*PROJECT PAGE*/
+.agency-carousel-item-01{
+    background-image: url('../images/agency/01.jpg');
+}
+.agency-carousel-item-02{
+    background-image: url('../images/agency/02.jpg');
+}
+.agency-carousel-item-03{
+    background-image: url('../images/agency/03.jpg');
+}
+.agency-carousel-item-04{
+    background-image: url('../images/agency/04.jpg');
+}
+
+
+/*AGENCY LANDING*/
+.project-01-bg-01{
+    background-image: url('../images/tiara-hair-salon-1.jpg');
+}
+.project-01-bg-02{
+    background-image: url('../images/tiara-hair-salon-2.jpg');
+}
+.project-01-bg-03{
+    background-image: url('../images/tiara-salon-lake-forest-25.jpg');
+}
+.project-01-bg-04{
+    background-image: url('../images/tiara-salon-lake-forest-27.jpg');
+}
+.project-01-bg-05{
+    background-image: url('../images/tiara-salon-lake-forest-28.jpg');
+}
+.project-01-bg-06{
+    background-image: url('../images/tiara-salon-lake-forest-26.jpg');
+}
+.project-01-bg-07{
+    background-image: url('../images/tiara-salon-lake-forest-40.jpg');
+}
+.project-01-bg-08{
+    background-image: url('../images/tiara-salon-lake-forest-41.jpg');
+}
+.project-01-bg-09{
+    background-image: url('../images/tiara-salon-lake-forest-42.jpg');
+}
+.project-01-bg-10{
+    background-image: url('../images/tiara-salon-lake-forest-51.jpg');
+}
+.project-01-bg-11{
+    background-image: url('../images/tiara-salon-lake-forest-49.jpg');
+}
+.project-01-bg-12{
+    background-image: url('../images/tiara-salon-lake-forest-50.jpg');
+}
+.project-01-bg-13{
+    background-image: url('../images/tiara-salon-lake-forest-58.jpg');
+}
+.project-01-bg-14{
+    background-image: url('../images/tiara-salon-lake-forest-59.jpg');
+}
+.project-01-bg-15{
+    background-image: url('../images/tiara-salon-lake-forest-60.jpg');
+}
+.project-01-bg-16{
+    background-image: url('../images/tiara-salon-lake-forest-66.jpg');
+}
+.project-01-bg-17{
+    background-image: url('../images/tiara-salon-lake-forest-67.jpg');
+}
+.project-01-bg-18{
+    background-image: url('../images/tiara-salon-lake-forest-69.jpg');
+}
+.project-01-bg-19{
+    background-image: url('../images/tiara-salon-lake-forest-76.jpg');
+}
+.project-01-bg-20{
+    background-image: url('../images/tiara-salon-lake-forest-77.jpg');
+}
+.project-01-bg-21{
+    background-image: url('../images/tiara-salon-lake-forest-78.jpg');
+}
+.project-01-bg-22{
+    background-image: url('../images/derm.jpg');
+}
+.project-01-bg-23{
+    background-image: url('../images/osis.jpg');
+}
+.project-01-bg-24{
+    background-image: url('../images/phyto.jpg');
+}
+.project-01-bg-25{
+    background-image: url('../images/tiara-salon-lake-forest-86.jpg');
+}
+.project-01-bg-26{
+    background-image: url('../images/tiara-salon-lake-forest-22.jpg');
+}
+
+
+
+/*CAROUSEL LANDING*/
+.horizontal-carousel-item-01{
+    background-image: url('../images/works/split/01.jpg');
+}
+.horizontal-carousel-item-02{
+    background-image: url('../images/works/split/02.jpg');
+}
+.horizontal-carousel-item-03{
+    background-image: url('../images/works/split/03.jpg');
+}
+.horizontal-carousel-item-04{
+    background-image: url('../images/works/split/04.jpg');
+}
+
+/*SPLIT PORTFOLIO*/
+.split-portfolio-01{
+    background-image: url('../images/works/split/01.jpg');
+}
+.split-portfolio-02{
+    background-image: url('../images/works/split/02.jpg');
+}
+.split-portfolio-03{
+    background-image: url('../images/works/split/03.jpg');
+}
+.split-portfolio-04{
+    background-image: url('../images/works/split/04.jpg');
+}
+.split-portfolio-05{
+    background-image: url('../images/works/split/05.jpg');
+}
+.split-portfolio-06{
+    background-image: url('../images/works/split/06.jpg');
+}
