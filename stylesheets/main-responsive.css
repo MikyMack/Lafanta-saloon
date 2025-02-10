@@ -141,8 +141,9 @@ there.
         padding-right: 50px;
     }
     .boxed-caption{
-        padding: 15px !important;
-        max-width: 120px !important;
+        padding: 40px 1px 1px 1px !important;
+        max-width: 110px !important;
+        margin-left: 5px;
     }
     .boxed-caption h3, .boxed-caption p{
         font-size: 10px !important;
@@ -160,8 +161,9 @@ there.
         margin: 3px;
     }
     .mobile-menu-icon{
-        left: 14px;
-        top: 40px;
+        right: 5%;
+        top: 20px;
+        left: auto;
     }
     .main-logo{
         max-width:30px;

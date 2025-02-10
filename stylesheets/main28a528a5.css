@@ -133,12 +133,12 @@ div#preloader.fluidview {
 header.masthead {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     height: 100%;
     width: 100px;
     padding: 20px 0px;
     text-align: center;
-    z-index: 9995;
+    z-index: 999;
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -ms-transition: all .4s ease-in-out;
@@ -267,7 +267,7 @@ footer.mastfoot ul li:last-child {
     height: 100%;
     background-color: rgba(4, 4, 4, 0.9);
     background-size: cover;
-    z-index: 9990;
+    z-index: 99;
     overflow: hidden;
 }
 
@@ -299,8 +299,8 @@ footer.mastfoot ul li:last-child {
 /* Menu icon styles */
 .menu-icon-trigger {
     position: fixed;
-    top: 50%;
-    left: 5px;
+    top: 10%;
+    right: 5px;
     height: 100px;
     margin-top: -50px;
     z-index: 9999;
@@ -416,9 +416,11 @@ footer.mastfoot ul li:last-child {
 }
 
 .menu-panel ul li a {
+    font-family: 'Prosto One';
     font-size: 2.5rem;
     line-height: 5rem;
     text-align: center;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 992px) {
@@ -546,13 +548,21 @@ section.belowfold {
 }
 
 .boxed-caption {
-    padding: 40px;
+    padding: 60px 1px 1px 1px;
     position: absolute;
     top: 0;
-    right: 0;
-    width: 180px;
-    max-width: 180px;
+    left: 2%;
+    width: 130px;
+    max-width: 130px;
 }
+.boxed-caption img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+}
+
 
 .boxed-caption:hover {
     -webkit-transition: all .4s ease-in-out;
@@ -1064,7 +1074,7 @@ section.belowfold {
     text-align: left;
     padding: 60px;
 }
-}
+
 
 .masonry-item-fade {
     opacity: 0.1;
@@ -2434,7 +2444,6 @@ Please read PDF guide to manage colors via LESS with just a single line of code 
     background-color: #0c0c0c
 }
 
-.boxed-caption:hover,
 .btn-aether-color:hover,
 .journal-item:hover {
     background-color: #8d7b3e
@@ -2522,4 +2531,29 @@ a:hover {
 body,
 p {
     font-family: Hind, sans-serif
+}
+
+
+.booking-icon {
+    position: fixed;
+    bottom: 60px;
+    right: 60px;
+    z-index: 1000;
+}
+
+.booking-icon a img {
+    width: 90px;
+    height: 90px;
+}
+
+@media screen and (max-width: 600px) {
+    .booking-icon {
+        bottom: 50px;
+        right: 15px;
+    }
+
+    .booking-icon a img {
+        width: 50px;
+        height: 50px;
+    }
 }

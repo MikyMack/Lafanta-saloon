@@ -141,8 +141,8 @@ there.
         padding-right: 50px;
     }
     .boxed-caption{
-        padding: 15px !important;
-        max-width: 120px !important;
+        padding: 15px 1px 1px 1px !important;
+        max-width: 110px !important;
     }
     .boxed-caption h3, .boxed-caption p{
         font-size: 10px !important;
