@@ -138,7 +138,7 @@ header.masthead {
     width: 100px;
     padding: 20px 0px;
     text-align: center;
-    z-index: 999;
+    z-index: 97;
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -ms-transition: all .4s ease-in-out;
@@ -267,7 +267,7 @@ footer.mastfoot ul li:last-child {
     height: 100%;
     background-color: rgba(4, 4, 4, 0.9);
     background-size: cover;
-    z-index: 99;
+    z-index: 9;
     overflow: hidden;
 }
 
@@ -2539,11 +2539,22 @@ p {
     bottom: 60px;
     right: 60px;
     z-index: 1000;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.booking-icon:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
 }
 
 .booking-icon a img {
     width: 90px;
     height: 90px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.booking-icon a img:hover {
+    transform: rotate(15deg);
 }
 
 @media screen and (max-width: 600px) {
@@ -2557,3 +2568,60 @@ p {
         height: 50px;
     }
 }
+
+.coupon-icon {
+    position: fixed;
+    bottom: 150px;
+    right: 65px;
+    z-index: 8;
+    text-align: center;
+    pointer-events: none;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.coupon-icon:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.coupon-icon a {
+    position: relative;
+    display: inline-block;
+    pointer-events: auto;
+}
+
+.coupon-icon a img {
+    width: 60px;
+    height: 60px;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.coupon-icon a img:hover {
+    transform: rotate(-15deg);
+}
+
+.coupon-icon p {
+    color: #ffffff;
+    font-weight: 300;
+    position: relative;
+}
+
+@media screen and (max-width: 600px) {
+    .coupon-icon {
+        bottom: 90px;
+        right: 2px;
+    }
+
+    .coupon-icon a img {
+        width: 40px;
+        height: 40px;
+    }
+    .coupon-icon p {
+        color: #ffffff;
+        font-weight: 300;
+        position: relative;
+        font-size: x-small;
+    }
+}
+
