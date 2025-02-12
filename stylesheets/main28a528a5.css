@@ -2559,7 +2559,7 @@ p {
 
 @media screen and (max-width: 600px) {
     .booking-icon {
-        bottom: 50px;
+        bottom: 70px;
         right: 15px;
     }
 
@@ -2571,8 +2571,8 @@ p {
 
 .coupon-icon {
     position: fixed;
-    bottom: 150px;
-    right: 65px;
+    bottom: 40px;
+    left: 50px;
     z-index: 8;
     text-align: center;
     pointer-events: none;
@@ -2609,8 +2609,8 @@ p {
 
 @media screen and (max-width: 600px) {
     .coupon-icon {
-        bottom: 90px;
-        right: 2px;
+        bottom: 40px;
+        left: 2px;
     }
 
     .coupon-icon a img {
