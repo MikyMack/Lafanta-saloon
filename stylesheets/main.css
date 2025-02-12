@@ -225,7 +225,7 @@ footer.mastfoot ul li:last-child {
 }
 
 .credits {
-    padding: 40px;
+    padding: 10px;
 }
 
 .credits p {
@@ -272,6 +272,9 @@ footer.mastfoot ul li:last-child {
         margin: 0;
         font-size: 12px;
         color: #000000;
+    }
+    .credits {
+       margin-bottom: 50px;
     }
 }
 
